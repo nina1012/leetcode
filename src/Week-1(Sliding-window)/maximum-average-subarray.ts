@@ -22,8 +22,8 @@ function findMaxAverage(nums: number[], k: number): number {
 
 // ********** EXPLANATION AND THOUGHT PROCESS ********* //
 
-// My approach achieves a time complexity of O(n) as it iterates through the array only once.
-// The space complexity of my solution is O(1), which is constant space because it doesn't depend on the input size. We only keep track of sum and maxSum.
+// This approach achieves a time complexity of O(n) as it iterates through the array only once.
+// The space complexity of this solution is O(1), which is constant space because it doesn't depend on the input size. We only keep track of sum and maxSum.
 
 // 1. initialize two variables: sum to represent the sum of the current window, and maxSum to keep track of the maximum sum over time.
 

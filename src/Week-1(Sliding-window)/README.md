@@ -13,3 +13,9 @@ How to recognise which problems can be solved using sliding window technique?
 - things we iterate over **_sequentially (contiguous sequence of elements)_**
 - strings, arrays, linked lists
 - calculating min, max of something, longest, shortest, contained characters…
+
+### Resources I used for learning this concept and solutions
+
+- **GeeksForGeeks**: [GeeksForGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)
+
+- **Video Solutions**: [Andy Gala](https://www.youtube.com/@andygala888/videos) has playlists dedicated to LeetCode problems, providing comprehensive explanations.
