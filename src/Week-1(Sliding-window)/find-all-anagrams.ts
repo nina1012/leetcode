@@ -76,5 +76,5 @@ function findAnagrams(s: string, p: string): number[] {
 // 4. if within the given range (p.length - 1), compare the strings for equality.
 // 5. if they are equal, push (i - (p.length - 1)) to the result index.
 
-// This solution made me think of methods in js such as charCodeAt that returns the unicode value of the character at the given index. We use that to place the frequency of the character into the pArr and sArr. We mod that unicode value by 26 because there are 26 English letters.
+// This solution uses methods in js such as charCodeAt that returns the unicode value of the character at the given index. We use that to place the frequency of the character into the pArr and sArr. We mod that unicode value by 26 because there are 26 English letters.
 // If the input consisted of characters other than lowercase English letters, the best way to have an optimal solution would be to use a hash map.
