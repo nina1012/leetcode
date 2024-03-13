@@ -19,7 +19,7 @@
 
 function findMaxAverage(nums: number[], k: number): number {
   let sum: number = 0;
-  let maxSum: number = -Infinity;
+  let maxSum: number = -Infinity; // in case we have negative numbers
 
   for (let i = 0; i < nums.length; i++) {
     sum += nums[i];

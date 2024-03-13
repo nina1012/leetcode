@@ -11,3 +11,9 @@ For solving problems I'll be using Typescript
 ### Acknowledgements
 
 Special thanks to **Dave Burji** for creating and sharing valuable study plan.
+
+### Resources I used for learning
+
+- **GeeksForGeeks**: [GeeksForGeeks](https://www.geeksforgeeks.org/window-sliding-technique/)
+
+- **Video Solutions**: [Andy Gala](https://www.youtube.com/@andygala888/videos) has playlists dedicated to LeetCode problems, providing comprehensive explanations.
