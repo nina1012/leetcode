@@ -57,3 +57,24 @@ function findAnagrams(s: string, p: string): number[] {
 
   return result;
 }
+
+// ********** EXPLANATION AND THOUGHT PROCESS ********* //
+
+// This approach achieves a time complexity of O(n) as it iterates through the array only once.
+// The space complexity of this solution is O(n) because in the worst case, every substring is an anagram, thus linear.
+
+// Given the constraint that both strings s and p consist only of lowercase English letters, we can avoid using hash maps.
+
+// 1. initialize two arrays, pArr and sArr, each of length 26, and initialize all elements to 0. These arrays represent the frequency of each letter.
+
+// 2. iterate through pArr to populate the frequency of each character in string p. For example, if there are two identical characters, the frequency will be set to 2, and so on. The index of each letter from p is determined using charCodeAt % 26 (the length of the array).
+
+// 3. loop through sArr in a similar manner to step 2, updating the frequency for each character in string s
+
+// if the current window is within the specified range (i - p.length - 1).
+// if not, decrement the head index. => the index at the beginning of the window, in this case i
+// 4. if within the given range (p.length - 1), compare the strings for equality.
+// 5. if they are equal, push (i - (p.length - 1)) to the result index.
+
+// This solution made me think of methods in js such as charCodeAt that returns the unicode value of the character at the given index. We use that to place the frequency of the character into the pArr and sArr. We mod that unicode value by 26 because there are 26 English letters.
+// If the input consisted of characters other than lowercase English letters, the best way to have an optimal solution would be to use a hash map.
